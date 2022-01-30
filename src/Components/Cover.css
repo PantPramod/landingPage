@@ -2,7 +2,7 @@
     display: flex;
     background:  var(  --bs-secondary);
     justify-content: space-evenly;
-    height: 120vh;     
+    min-height: 120vh;     
     align-items: center;
 }
 .cover__left, .cover__right{
@@ -18,19 +18,20 @@
     color:  var( --bs-white);
     margin-bottom: 10px;
     font-size: 2.5em;
-    font-family:sans-serif;
 }
 .cover__mid p{
-    color:rgba(243, 236, 224, 0.904);
+    color:rgba(255, 255, 255, 0.8);
     margin-bottom: 20px;
-
+    font-size: 16px;
+    line-height: 200%;
+    text-align: center; 
 }
 
 .cover__mid button{
     background: var(--bs-primary);
     color: var(--bs-white);
     border:none;
-    padding:12px 30px;
+    padding:17px 30px;
     border-radius: 5px;
     margin-top: 50px;
 }
@@ -42,6 +43,7 @@
     text-decoration: none;
     color: var(--bs-white);
     font-size: 20px;
+    /* font-family:"Open Sans" ,sans-serif; */
 }
 
 
@@ -70,37 +72,61 @@
 .cover2{
     padding-top: 40vh;
     background:  var(  --bs-secondary);
+    width: 100%; 
     
 }
 .cover2 .box2{
-   
+    margin-top: -80px;
     display: flex;
-    background:  #09a593;
+    background: #009080;
     border-radius: 10px; 
-    max-width:80%;
-    min-height: 300px;
+    max-width:84%;
+    /* min-height: 358px; */
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 50px;
     color: white;
     font-size: 18px;
+    justify-content: space-evenly;
 }
 
 .box2 p{
-    color:rgba(211, 209, 204, 0.562);
+    color:#FFFFFF80;
+    font-size: 14px;
 }
 .box2__card{
-    padding: 10px;
+    flex-basis: 24%;
+    
 }
 .box2__card h3{
-    padding: 10px;
+    font-family: 'Montserrat', sans-serf;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 .box2 p{
-    padding: 10px;
+    font-family:"Open Sans" ,sans-serif;
+    font-size: 14px;
+    line-height: 200%;
 }
+.coverico{
+    width: 50px ;
+    height: 50px;
+    object-fit: contain;
+    /* flex-basis: 15%; */
+    flex-basis: 50px;
+    margin-right: 30px;
+}
+
 @media (max-width:990px){
        .box2{
          flex-direction: column;
        }
+.coverico{
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
 
 }
+
+

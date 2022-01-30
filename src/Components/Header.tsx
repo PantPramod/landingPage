@@ -1,16 +1,15 @@
 import React, {useState} from 'react';
-import close from './Images/close.jpg';
-import show from './Images/show.jpg';
-import hide from './Images/hide.jpg';
-
-
+import close from '../Images/close.jpg';
+import show from '../Images/show.jpg';
 import './Header.css';
+
 const Header = () => {
     const [showDrawer, setShowDrawer] = useState(false);
     const [showMobileMenu, setShowMobileMenu] = useState(false);
     const [showSubMobileMenu, setSubShowMobileMenu] = useState(false);
      
-  return<> <div className='header'>
+  return<div className='bgsecondary'> 
+  <div className='header mw center'>
       <div className='header__left' >
           <a href="#">Impact</a>
       </div>
@@ -37,7 +36,7 @@ const Header = () => {
                   <a href="#">Services</a>
                   <a href="#">Blog</a>
                   <a href="#">About</a>
-                  <a href="#">Contact Us</a>
+                  <a href="#">ContactUs</a>
       </div>
       <div className='menu-btn' onClick={()=>setShowDrawer(true)}>
           <div></div>
@@ -77,7 +76,7 @@ const Header = () => {
        <li><a href="#">Contact Us</a></li>
    </ul>
 </div>
-</>
+</div>
   ;
 };
 

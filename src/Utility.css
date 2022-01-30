@@ -1,0 +1,40 @@
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mw{
+    max-width: 84%;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 200%;
+  } */
+  ul li, h2, h3, a{
+    font-family:"Open Sans" ,sans-serif;
+  }
+  h2{
+    font-size: 30px;
+  }
+   h1{
+    font-family: 'Montserrat', sans-serf;
+    font-size: 1.5vw;
+  }
+  li{
+    line-height: 200%;
+  }
+  .bgsecondary{
+    background:  var(  --bs-secondary);
+  }
+
+  .flex{
+    display: flex;
+  }
+  .column{
+    flex-direction: column;
+  }
+  
+  .alignstart{
+    align-self: flex-start;
+  }

@@ -2,28 +2,25 @@
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #f8f9fa;
     font-size: 14px;
-    font-family: var(--bs-font-sans-serif);
     overflow: hidden;
     background:  var(  --bs-secondary);
-}
-.header__left{
-    font-size: 24px;
     padding: 20px;
 }
 
+
 .header__left a{
-    font-size: 30px;
+    font-size: 24px;
     text-decoration: none;
     color: #f8f9fa;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
 }
 .header__right{
     display: flex;
-    padding: 20px;
-    
+  
 }
 
 .header__right a{
@@ -32,7 +29,8 @@
     text-decoration: none;
     color:#d4d6d8dc;
     cursor: pointer;
-    padding: 10px;
+    padding: 10px 15px;
+    font-family:"Open Sans", sans-serif;
 }
 
 .header__right a:hover{
@@ -50,19 +48,16 @@
     background: white;
     color: black;
     position:absolute;
-    
     width:200px;
-
 }
 .menu2 span{
     position:absolute;
-
 }
 .submenu{
-    /* margin-left: 60px; */
     margin-top: -20px;
     left:200px
 }
+
 .menu a:hover{
     color:var(--bs-primary);
     padding:10px;
@@ -103,26 +98,26 @@
        display: none;
    }
    .menu-btn{
-    width: 30px;
-    height: 30px;
-   display: flex;
+    width: 28px;
+    height: 25px;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
+    cursor: pointer;
+    
   }
+
   .menu-btn:hover{
-       justify-content: space-evenly;
+       justify-content: space-around;
   }
+
   .menu-btn div{
-    display: block;
     background: white;
-    width:30px;
+    width:26px;
     height: 2px;
-    margin-top: 5px;
    } 
   
    .drawer{
-        
         position: fixed;
         top:0;
         right: 0;
@@ -130,18 +125,15 @@
         left: 0;
         transition: transform .5s;
         display: flex;
-        /* transform: translateX(100%) */
+        
    }
    .drawer-cover{
-    /* background: #08c012ec; */
     flex-basis: 70%;
-
-}
+   }
     
    .drawer ul {
-    
        list-style: none;
-       flex-basis: 400px;
+       flex-basis: 300px;
        background:white;
    }
    .drawer ul li{
@@ -165,7 +157,7 @@
      
        width: 30px;
        height: 30px;
-       transition:  0.5s transform; 
+       transition:  0.5s transform ease-out; 
        cursor: pointer;
        position: absolute;
        border-radius: 100%;

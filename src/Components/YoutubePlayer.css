@@ -1,0 +1,35 @@
+.youtubeplayer{
+    background-color: #000000dc;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    height: 100vh;
+    overflow-y:hidden;
+    z-index: 999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.youtubeplayer iframe{
+  /* width:70%; */
+  /* height: 50vh; */
+  object-fit: contain;
+}
+
+.closeico{
+    position: fixed;
+    right: 10px;
+    top:10px;
+    color: rgba(245, 245, 245, 0.774) !important;
+    width: 35px !important;
+    height: 35px !important;
+    font-weight: 100 !important;
+    cursor: pointer;
+   
+}
+.closeico :hover{
+    color: white;
+}
