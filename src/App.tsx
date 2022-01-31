@@ -11,12 +11,12 @@ import ImageSlider from './Components/ImageSlider';
 function App() {
   return (
     <div className="app">
-            <Header/>
-            <Cover/>
-            <AboutUs/>
-            <ImageSlider/>
-            <Blog/>
-            <Footer/>
+      <Header />
+      <Cover />
+      <AboutUs />
+      <ImageSlider />
+      <Blog />
+      <Footer />
     </div>
   );
 }

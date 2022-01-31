@@ -14,8 +14,7 @@
 
 }
 .youtubeplayer iframe{
-  /* width:70%; */
-  /* height: 50vh; */
+
   object-fit: contain;
 }
 

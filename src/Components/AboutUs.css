@@ -125,7 +125,7 @@ position: relative;
         font-family:"Open Sans" ,sans-serif;
     }
     .video__box2 div ul li:before {
-        content: '✓';
+        content: '!';
         color: var(--bs-primary);
         margin-right: 10px;
       }
@@ -134,9 +134,7 @@ position: relative;
    width: 100%;
    border-radius: 10px;
    filter: brightness(50%);
-   object-fit: contain;
-   
-   
+   object-fit: contain;  
 }
 
 @media (max-width:990px) {
@@ -144,7 +142,6 @@ position: relative;
         flex-direction: column;
         width: 100%;
         min-height: 150vh;
-        /* background: black; */
         justify-content: space-evenly;
     }
     .video__box1, .video__box2{
