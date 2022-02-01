@@ -93,10 +93,8 @@
 flex-basis: 50%;
 margin-top: 50px;
 position: relative;
-/* background: blue; */
-
-/* background: red; */
 }
+
 .video__section .video__box2{
     flex-basis: 50%;
     }
@@ -124,8 +122,8 @@ position: relative;
         position: relative;
         font-family:"Open Sans" ,sans-serif;
     }
-    .video__box2 div ul li:before {
-        content: '!';
+    .video__box2 div ul li span {
+       
         color: var(--bs-primary);
         margin-right: 10px;
       }

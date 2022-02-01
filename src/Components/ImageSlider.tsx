@@ -23,11 +23,14 @@ const people = [
 
 const ImageSlider = () => {
     const [index, setIndex] = useState(0);
-
+    const [stopTimer, setStopTimer] = useState(false)
     useEffect(() => {
+
+
         const timerId = setInterval(() => {
             setIndex((prevIndex) => (prevIndex + 1) % 3)
         }, 5000)
+
 
         return () => { clearInterval(timerId); }
 

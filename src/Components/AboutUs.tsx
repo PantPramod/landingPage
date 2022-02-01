@@ -101,11 +101,11 @@ const AboutUs = () => {
           <h2>Get Started with Impact</h2>
           <p>Labore id odit sit optio, voluptas sequi nobis aliquid dignissimos iure recusandae.</p>
           <ul>
-            <li>Deserunt harum incidunt</li>
-            <li>Ex nesciunt est temporibus ipsum</li>
-            <li>Vel rem eveniet facere et velit sunt</li>
-            <li>Aspernatur eaque quis</li>
-            <li>Dolorem magnam quisquam? Facere</li>
+            <li><span>&#10003;</span>Deserunt harum incidunt</li>
+            <li><span>&#10003;</span>Ex nesciunt est temporibus ipsum</li>
+            <li><span>&#10003;</span>Vel rem eveniet facere et velit sunt</li>
+            <li><span>&#10003;</span>Aspernatur eaque quis</li>
+            <li><span>&#10003;</span>Dolorem magnam quisquam? Facere</li>
           </ul>
           <button className='learnmore'><a href="#">Learn More</a></button>
         </div>
