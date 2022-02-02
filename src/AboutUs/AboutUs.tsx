@@ -15,15 +15,13 @@ const AboutUs = () => {
   return (<>
 
 
-    <div style={{ background: " var(  --bs-light) " }}>
+    <div className="bg-light">
       <div className='aboutus'>
         <div className='aboutus__container1'>
-
-
           <h2>Why You Should Choose Us</h2>
           <div className='flex column div'>
             <div className='flex'>
-              <img src={pro} className='alignstart' style={{ width: "50px", height: "50px", margin: "30px 30px 0 0px" }} />
+              <img src={pro} className='alignstart ico-style' />
               <div>
                 <h3>Professional</h3>
                 <p>Sapiente, assumenda suscipit autem ab expedita dignissimos, corrupti iusto nobis ex aperiam cumque reprehenderit, saepe culpa qui eos ullam minima quo, consequuntur.</p>
@@ -31,7 +29,7 @@ const AboutUs = () => {
             </div>
 
             <div className='flex'>
-              <img src={reviews} className='alignstart' style={{ width: "50px", height: "50px", margin: "30px 30px 0 0px" }} />
+              <img src={reviews} className='alignstart ico-style' />
               <div>
                 <h3>Good Review</h3>
                 <p>Sapiente, assumenda suscipit autem ab expedita dignissimos, corrupti iusto nobis ex aperiam cumque reprehenderit, saepe culpa qui eos ullam minima quo, consequuntur.</p>
@@ -44,8 +42,8 @@ const AboutUs = () => {
         </div>
       </div>
     </div>
-    <div style={{ background: "white" }}>
-      <div className='aboutus' style={{ background: "white" }}>
+    <div className='bg-white'>
+      <div className='aboutus bg-white'>
         <div className='aboutus__container1'>
           <h2>Why Growing Your Business is Important</h2>
           <p>Labore id odit sit optio, voluptas sequi nobis aliquid dignissimos iure recusandae vitae nam facere hic quis voluptate cum quae. Deserunt, harum, incidunt ex nesciunt est temporibus ipsum, vel rem eveniet facere et velit sunt aspernatur eaque quis, dolorem magnam quisquam? Facere?</p>
@@ -60,9 +58,9 @@ const AboutUs = () => {
 
     <div className='container__select aboutus__container1'>
 
-      <div className='flex div' style={{ width: "100%" }}>
-        <div className='flex' style={{ padding: "0 15px" }}>
-          <img src={pro} className='alignstart' style={{ width: "50px", height: "50px", margin: "30px 30px 0 0px" }} />
+      <div className='flex div full-width' >
+        <div className='flex p15'>
+          <img src={pro} className='alignstart ico-style' />
           <div>
             <h3>Professional</h3>
             <p>Sapiente, assumenda suscipit autem ab expedita dignissimos, corrupti iusto nobis ex aperiam cumque reprehenderit, saepe culpa qui eos ullam minima quo, consequuntur.</p>
@@ -70,7 +68,7 @@ const AboutUs = () => {
         </div>
 
         <div className='flex'>
-          <img src={reviews} className='alignstart' style={{ width: "50px", height: "50px", margin: "30px 30px 0 0px" }} />
+          <img src={reviews} className='alignstart ico-style' />
           <div>
             <h3>Good Review</h3>
             <p>Sapiente, assumenda suscipit autem ab expedita dignissimos, corrupti iusto nobis ex aperiam cumque reprehenderit, saepe culpa qui eos ullam minima quo, consequuntur.</p>
@@ -78,7 +76,7 @@ const AboutUs = () => {
         </div>
 
         <div className='flex'>
-          <img src={reviews} className='alignstart' style={{ width: "50px", height: "50px", margin: "30px 30px 0 0px" }} />
+          <img src={reviews} className='alignstart ico-style' />
           <div>
             <h3>24/7 Support</h3>
             <p>Sapiente, assumenda suscipit autem ab expedita dignissimos, corrupti iusto nobis ex aperiam cumque reprehenderit, saepe culpa qui eos ullam minima quo, consequuntur.</p>

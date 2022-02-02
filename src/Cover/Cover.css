@@ -30,10 +30,12 @@
 .cover__mid button{
     background: var(--bs-primary);
     color: var(--bs-white);
-    border:none;
-    padding:17px 30px;
+    border:2px solid var(--bs-primary);
+    padding:12px 30px;
     border-radius: 5px;
     margin-top: 50px;
+    line-height: 1.5;
+
 }
 .cover__mid button:hover{
     border:1px solid white;
@@ -49,6 +51,9 @@
 
 
 @media (max-width:992px){
+    .cover{
+        
+    }
     .cover__mid h1{
         font-size: 40px;
     }

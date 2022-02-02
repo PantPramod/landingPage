@@ -1,11 +1,12 @@
-import Header from './Components/Header';
-import Cover from './Components/Cover';
-import AboutUs from './Components/AboutUs';
-import Footer from './Components/Footer';
-import Blog from './Components/Blog';
 import './Utility.css'
 import './App.css';
-import ImageSlider from './Components/ImageSlider';
+import Header from './Header';
+import Cover from './Cover';
+import AboutUs from './AboutUs';
+import ImageSlider from './ImageSlider';
+import Blog from './Blog';
+import Footer from './Footer';
+
 
 
 function App() {

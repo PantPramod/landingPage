@@ -58,8 +58,23 @@
   margin-left: auto;
   margin-right: auto;
 }
-
-
+.bg-light{
+    background:  var(  --bs-light) ;
+}
+.bg-white{
+    background: #ffff;
+}
+.ico-style{
+    width: 50px;
+    height: 50px;
+    margin: 30px 30px 0 0;
+}
+.full-width{
+    width: 100% !important;
+}
+.p15{
+padding: 0 15px;
+}
 
 @media (max-width:990px) {
     .aboutus{
@@ -69,6 +84,9 @@
     .aboutus__container1,.aboutus__container2 {
         flex-basis:100%; 
         /* background: red; */
+    }
+    .aboutus__container2{
+        margin-top: 30px;
     }
     .aboutus__container1 .div{
         width: 100%;
@@ -133,14 +151,15 @@ position: relative;
    border-radius: 10px;
    filter: brightness(50%);
    object-fit: contain;  
+   cursor: pointer;
 }
 
 @media (max-width:990px) {
     .video__section{
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 100%;
         min-height: 150vh;
-        justify-content: space-evenly;
+        justify-content: center;
     }
     .video__box1, .video__box2{
         flex-basis: 100%;
@@ -162,4 +181,5 @@ position: relative;
     padding:25px;
     width: 70px !important;
     height: 70px !important;
+    cursor: pointer;
 }

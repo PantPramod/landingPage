@@ -22,7 +22,7 @@ p{
     font-size: 1.5vw;
   }
   li{
-    line-height: 200%;
+    /* line-height: 200%; */
   }
   .bgsecondary{
     background:  var(  --bs-secondary);

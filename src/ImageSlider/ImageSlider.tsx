@@ -23,7 +23,7 @@ const people = [
 
 const ImageSlider = () => {
     const [index, setIndex] = useState(0);
-    const [stopTimer, setStopTimer] = useState(false)
+   
     useEffect(() => {
 
 

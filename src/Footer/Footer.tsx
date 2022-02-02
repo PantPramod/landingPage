@@ -1,6 +1,4 @@
-import React from 'react';
 import './Footer.css';
-import fb from '../Images/fb.svg';
 
 const Footer = () => {
     return <div className='footer'>
